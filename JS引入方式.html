@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 内部脚本  -->
+    <!-- <script>
+        alert("Hello JS");
+    </script> -->
+
+    <!-- 外部脚本 -->
+     <!-- <script src="js/demo.js"></script> -->
+</head>
+<body>
+    <script>
+      //   alert("js");
+       // document.write("hello");
+       // console.log("hello");
+
+//特点一 全局变量   let 局部 不重复
+//特点二 重复定义   const 常量 不能被改变  
+    // var a = 10;
+    // a = "张三";
+    // document.write(a);
+
+    // == 会进行类型转换 ===不会类型转换
+     var age = 20;
+     var _age = "20";
+     var $age = 20;
+
+     alert(age == _age); //t
+     alert(age === _age);//f
+     alert(age === $age);//t 
+    </script>
+  
+
+
+</body> 
+</html>
